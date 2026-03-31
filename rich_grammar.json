@@ -163,221 +163,14 @@
       "weight": 1
     }
   ],
-  "Conflict": [
-    {
-      "expansion": [
-        "betrayal by a trusted ally"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "race against time to stop a ritual"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "moral dilemma: save one or many"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "class clash between noble and commoner"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "internal conflict: fear vs duty"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "misunderstanding that escalates to violence"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a secret identity is exposed"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "resource scarcity sparks competition"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a legal accusation threatens reputation"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "supernatural omen divides the town"
-      ],
-      "weight": 1
-    }
+  "Body": [
+    [
+      "Events",
+      "Conflict",
+      "Subplots"
+    ]
   ],
-  "Resolution": [
-    {
-      "expansion": [
-        "truth revealed publicly; reputations reshaped"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a sacrifice averts disaster"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "an unexpected alliance solves the problem"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "the antagonist is redeemed rather than punished"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a clever trick exposes the conspiracy"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "the object sought is destroyed to prevent misuse"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a compromise that leaves everyone changed but alive"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "the mystery remains partially unsolved, hinting at more"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "legal or formal restitution restores balance"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a personal revelation heals an internal wound"
-      ],
-      "weight": 2
-    }
-  ],
-  "Epilogue": [
-    {
-      "expansion": [
-        "a quiet scene showing how lives have shifted six months later"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a final clue hints at a new adventure"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a festival commemorates the events and honors the lost"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a letter arrives that reframes the whole story"
-      ],
-      "weight": 1
-    }
-  ],
-  "Dialogue": [
-    {
-      "expansion": [
-        "\"We all carry maps of the past; some of us just refuse to read them.\""
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "\"If you want the truth, be ready to lose something you love.\""
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "\"I never promised you safety, only that I'd stand beside you.\""
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "\"Secrets are like seeds; they sprout whether you tend them or not.\""
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "\"Sometimes the bravest thing is to ask for help.\""
-      ],
-      "weight": 2
-    }
-  ],
-  "Emotions": [
-    {
-      "expansion": [
-        "hopeful"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "anxious"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "betrayed"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "nostalgic"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "resolute"
-      ],
-      "weight": 2
-    }
-  ],
-  "Event": [
+  "Events": [
     {
       "expansion": [
         "a chase through narrow alleys"
@@ -469,119 +262,190 @@
       "weight": 3
     }
   ],
-  "Events": [
+  "Conflict": [
     {
       "expansion": [
-        "Event"
+        "betrayal by a trusted ally"
       ],
-      "weight": 4
+      "weight": 3
     },
     {
       "expansion": [
-        "Event",
-        "Event"
+        "race against time to stop a ritual"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "Event",
-        "Event",
-        "Event"
+        "moral dilemma: save one or many"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "class clash between noble and commoner"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "internal conflict: fear vs duty"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "misunderstanding that escalates to violence"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a secret identity is exposed"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "resource scarcity sparks competition"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a legal accusation threatens reputation"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "supernatural omen divides the town"
       ],
       "weight": 1
     }
   ],
-  "Subplot": [
-    [
-      "Story"
+  "Subplots": {
+    "recursive": true,
+    "max_depth": 3,
+    "probability_of_subplots": 0.7,
+    "common_subplot_weight": 2,
+    "subplots_list": [
+      {
+        "name": "Hidden Lineage",
+        "structure": [
+          "Character",
+          "Events",
+          "Conflict",
+          "Resolution"
+        ],
+        "notes": "May reveal a character's ancestry that reframes the main conflict.",
+        "weight": 2
+      },
+      {
+        "name": "Old Debt",
+        "structure": [
+          "Character",
+          "Events",
+          "Conflict",
+          "Resolution"
+        ],
+        "notes": "A favor owed resurfaces and complicates choices.",
+        "weight": 3
+      },
+      {
+        "name": "Forbidden Romance",
+        "structure": [
+          "Character",
+          "Events",
+          "Conflict",
+          "Resolution"
+        ],
+        "notes": "Romantic tension that can either heal or break alliances.",
+        "weight": 1
+      },
+      {
+        "name": "Secret Society",
+        "structure": [
+          "Location",
+          "Events",
+          "Conflict",
+          "Resolution"
+        ],
+        "notes": "A clandestine group with its own agenda; often recurses into smaller secrets.",
+        "weight": 1
+      },
+      {
+        "name": "Red Herring",
+        "structure": [
+          "Events",
+          "Conflict",
+          "Resolution"
+        ],
+        "notes": "Introduces misleading clues to increase suspense.",
+        "weight": 2
+      }
     ]
-  ],
-  "Subplots": [
+  },
+  "Resolution": [
     {
       "expansion": [
-        "Subplot"
+        "truth revealed publicly; reputations reshaped"
       ],
       "weight": 3
     },
     {
       "expansion": [
-        "Subplot",
-        "Subplot"
+        "a sacrifice averts disaster"
       ],
-      "weight": 1
-    }
-  ],
-  "Scene": [
+      "weight": 2
+    },
     {
       "expansion": [
-        "Event"
+        "an unexpected alliance solves the problem"
       ],
       "weight": 3
     },
     {
       "expansion": [
-        "Events"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Event",
-        "Dialogue"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Event",
-        "Emotions"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Events",
-        "Dialogue"
+        "the antagonist is redeemed rather than punished"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "Event",
-        "Conflict"
-      ],
-      "weight": 1
-    }
-  ],
-  "Body": [
-    {
-      "expansion": [
-        "Scene"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "Scene",
-        "Scene"
+        "a clever trick exposes the conspiracy"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "Scene",
-        "Scene",
-        "Scene"
+        "the object sought is destroyed to prevent misuse"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "Scene",
-        "Subplots"
+        "a compromise that leaves everyone changed but alive"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the mystery remains partially unsolved, hinting at more"
       ],
       "weight": 1
+    },
+    {
+      "expansion": [
+        "legal or formal restitution restores balance"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a personal revelation heals an internal wound"
+      ],
+      "weight": 2
     }
   ],
   "Ending": [
@@ -589,5 +453,95 @@
       "Resolution",
       "Epilogue"
     ]
-  ]
+  ],
+  "Epilogue": [
+    {
+      "expansion": [
+        "a quiet scene showing how lives have shifted six months later"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "a final clue hints at a new adventure"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a festival commemorates the events and honors the lost"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a letter arrives that reframes the whole story"
+      ],
+      "weight": 1
+    }
+  ],
+  "Dialogue": [
+    {
+      "snippet": "\"We all carry maps of the past; some of us just refuse to read them.\"",
+      "weight": 2
+    },
+    {
+      "snippet": "\"If you want the truth, be ready to lose something you love.\"",
+      "weight": 3
+    },
+    {
+      "snippet": "\"I never promised you safety, only that I'd stand beside you.\"",
+      "weight": 2
+    },
+    {
+      "snippet": "\"Secrets are like seeds; they sprout whether you tend them or not.\"",
+      "weight": 1
+    },
+    {
+      "snippet": "\"Sometimes the bravest thing is to ask for help.\"",
+      "weight": 2
+    }
+  ],
+  "Emotions": [
+    {
+      "state": "hopeful",
+      "weight": 3
+    },
+    {
+      "state": "anxious",
+      "weight": 3
+    },
+    {
+      "state": "betrayed",
+      "weight": 2
+    },
+    {
+      "state": "nostalgic",
+      "weight": 1
+    },
+    {
+      "state": "resolute",
+      "weight": 2
+    }
+  ],
+  "Meta": {
+    "weights_interpretation": "Higher weight values make an element more likely to be chosen when generating a story.",
+    "selection_rules": {
+      "opening_elements": "Choose 1 Introduction (weighted), 1 Character (weighted), 1 Location (weighted).",
+      "body_elements": "Select 2-4 Events (weighted, no duplicates), 1-2 Conflicts (weighted), 0-3 Subplots (probabilistic).",
+      "ending_elements": "Select 1 Resolution (weighted), 1 Epilogue (weighted)."
+    },
+    "probabilities": {
+      "chance_of_subplot": 0.7,
+      "chance_of_recursive_subsubplot": 0.35,
+      "chance_of_multiple_resolutions": 0.15
+    },
+    "recursive_subplot_rules": {
+      "max_depth": 3,
+      "min_elements_per_subplot": 2,
+      "max_elements_per_subplot": 4,
+      "prefer_common_subplots": true
+    },
+    "randomization_seed_hint": "Use weights and probabilities to bias random selection; normalize weights to probabilities before sampling."
+  }
 }

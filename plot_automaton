@@ -1,0 +1,10 @@
+// Plot Phase Automaton
+digraph {
+	Setup [label=Setup]
+	RisingAction [label="Rising Action"]
+	Climax [label=Climax]
+	Resolution [label=Resolution]
+	Setup -> RisingAction
+	RisingAction -> Climax
+	Climax -> Resolution
+}

@@ -1,0 +1,1640 @@
+[
+  {
+    "phrase": "they discovered a secret gate behind a statue.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a symbol carved into a clay.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a falling rocks using their cunning.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a code carved into a table.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a bandit in a arena.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a sparrow through the tundra.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a dagger hidden in a hollow tree.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a lock with rope.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a runes carved into a door.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a firefly that burned with purple flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a crystal hidden in a tower.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a riddle carved into a wood.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a sigh echoing from the graveyard.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a code carved into a floor.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a pit using their knowledge.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a proverb that made the enemies weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a curse using their stealth.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a crack echoing from the graveyard.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a wolf through the coast.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a coin for a safe passage with a thief.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a riddle carved into a clay.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the cave.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a beggar who was in injury.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret shaft behind a statue.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret portal behind a fountain.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a cat through the swamp.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret archway behind a mirror.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a giant in a dungeon.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a bandit in a street.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a scaffold overlooking the plain.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a sigh echoing from the tower.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a glyph carved into a table.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a illusion using their agility.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a barrel and found a flower.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret hallway behind a window.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a ballad that made the children weep.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a ship with bone.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the bridge.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a star that burned with gold flame.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a key hidden in a ruin.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a shout echoing from the temple.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a water for a shelter with a child.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a shield with bone.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a statue overlooking the city.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a basket and found a skull.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a minstrel who was in debt.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a pyramid overlooking the forest.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a ship with cloth.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a owl through the tundra.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a guard in a hall.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a ode that made the children weep.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a sword with stone.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a cupboard and found a letter.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a sea under the candlelight.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a script carved into a ceiling.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a fire using their stealth.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret vent behind a altar.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a spell that made the enemies weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a bay under the moonlight.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a cliff overlooking the cliff.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a orphan who was in curse.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a dragon in a street.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a match that burned with black flame.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a verse that made the enemies weep.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a waterfall under the glow.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a sonnet that made the court weep.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a curse using their strength.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a bay under the torchlight.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a pond under the sunset.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a sparrow through the mountain.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a torch that burned with silver flame.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a howl echoing from the bridge.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a cat through the tundra.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lantern that burned with silver flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a butterfly through the desert.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a scroll hidden in a shrine.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a orphan who was in injury.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a priest who was in injury.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a fire using their wits.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a deer through the coast.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a ice using their strength.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a raven through the mountain.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a spell that made the animals weep.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret vent behind a pillar.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a sigh echoing from the forest.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the market.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a cloak for a information with a scholar.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a water for a information with a elder.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a snake through the coast.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a runes carved into a ceiling.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a match that burned with silver flame.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a sack and found a key.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a bandit in a chamber.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a guard in a cavern.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lamp that burned with green flame.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a poison dart using their stealth.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a torch that burned with white flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a shield with rope.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a feather hidden in a shrine.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a falling rocks using their stealth.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a ring hidden in a tomb.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret corridor behind a tapestry.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a tower overlooking the lake.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a child who was in debt.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a statue overlooking the forest.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the graveyard.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a sword with silver.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret archway behind a pillar.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a pyramid overlooking the valley.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a secret for a safe passage with a guard.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a armor with silver.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a sonnet that made the elders weep.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a spell that made the crowd weep.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a drum echoing from the tower.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a lament that made the soldiers weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a runes carved into a table.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a torch that burned with violet flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a ghost in a dungeon.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a cloak for a horse with a hermit.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a ballad that made the guard weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a ghost in a hall.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a pouch and found a letter.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a bay under the candlelight.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a cart with leather.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a hymn that made the village weep.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a rope overlooking the forest.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a sigil carved into a metal.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a pyramid overlooking the lake.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a statue overlooking the plain.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a epic that made the soldiers weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a bread for a ally with a child.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a song echoing from the graveyard.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a skeleton in a street.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a swamp under the twilight.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a door with bone.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a chest and found a weapon.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the tower.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret hallway behind a tapestry.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a butterfly through the forest.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a sailor who was in danger.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a spell that made the court weep.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a cliff overlooking the city.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a cry echoing from the market.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a statue overlooking the sea.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a giant in a plaza.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a falling rocks using their magic.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a merchant who was in hunger.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a coin for a horse with a hermit.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a bridge with cloth.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a ocean under the dawn.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a rat through the tundra.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a song for a horse with a merchant.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a bridge with silver.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a cloak for a rope with a priest.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a merchant who was in danger.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a drum echoing from the village.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a minstrel who was in danger.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a cry echoing from the forest.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a beast in a courtyard.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a golem in a hall.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a amulet hidden in a ruin.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a dragon in a hall.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a beggar who was in curse.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a firefly that burned with orange flame.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a warlock in a courtyard.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a ridge overlooking the lake.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lantern that burned with blue flame.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a crystal hidden in a cellar.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a vase and found a message.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret portal behind a fireplace.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a curse using their luck.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a dragon in a chamber.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a sigh echoing from the village.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a skeleton in a bridge.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lantern that burned with black flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a scroll hidden in a cellar.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a ladder overlooking the lake.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a bridge with glass.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lantern that burned with purple flame.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a staircase overlooking the river.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a priest who was in hunger.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lamp that burned with black flame.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a howl echoing from the graveyard.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a pit using their luck.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a ghost in a bridge.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a fox through the valley.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a scaffold overlooking the cliff.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a pond under the torchlight.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a beggar who was in sickness.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a bell echoing from the village.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret doorway behind a throne.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a minstrel who was in cold.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a whisper echoing from the castle.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a bonfire that burned with black flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret corridor behind a pillar.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a cliff overlooking the plain.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a box and found a treasure.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a dagger for a food with a pilgrim.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a crack echoing from the castle.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a amulet hidden in a tomb.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a coin for a shelter with a pilgrim.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a rat through the meadow.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a language carved into a parchment.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a snare using their knowledge.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret hallway behind a mirror.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a beggar who was in hunger.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a song for a shelter with a elder.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a owl through the coast.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a widow who was in loneliness.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a coin for a shelter with a thief.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a boot for a safe passage with a elder.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a cat through the forest.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a sun that burned with black flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a statue overlooking the lake.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a riddle carved into a wall.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a bread for a lamp with a soldier.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a pit using their strength.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a script carved into a wall.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a box and found a trap.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a butterfly through the tundra.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret staircase behind a fireplace.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a wagon with glass.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lamp that burned with violet flame.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a sack and found a message.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a soldier who was in danger.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a howl echoing from the cave.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a farmer who was in curse.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a ladder overlooking the sea.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a lamp that burned with silver flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they found a map hidden in a hollow tree.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a warlock in a street.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a secret for a shelter with a elder.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a ice using their speed.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a sea under the moonlight.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a shout echoing from the forest.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a flood using their cunning.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret hallway behind a statue.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a riddle that made the children weep.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they helped a farmer who was in hunger.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a wolf through the valley.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a rope overlooking the cliff.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a barrel and found a message.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a riddle carved into a metal.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a star that burned with white flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a ballad that made the crowd weep.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a code carved into a clay.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a barrel and found a key.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they opened a basket and found a letter.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a coin for a horse with a guard.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a giant in a cavern.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a firefly that burned with red flame.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a giant in a chamber.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they confronted a ghost in a throne room.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a door with wood.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a lake under the firelight.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a bridge with leather.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they traded a song for a ally with a scholar.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they followed a raven through the swamp.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret archway behind a fireplace.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a language carved into a wall.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a symbol carved into a parchment.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a script carved into a stone.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they deciphered a cipher carved into a metal.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a pit using their wits.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a ballad that made the elders weep.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they recited a verse that made the guard weep.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they discovered a secret tunnel behind a mirror.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they lit a bonfire that burned with red flame.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they heard a laugh echoing from the castle.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they escaped from a curse using their speed.",
+    "act": "climax",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they climbed a rope overlooking the valley.",
+    "act": "resolution",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they swam across a pond under the glow.",
+    "act": "rising",
+    "precondition": {},
+    "effect": {}
+  },
+  {
+    "phrase": "they repaired a door with silver.",
+    "act": "setup",
+    "precondition": {},
+    "effect": {}
+  }
+]

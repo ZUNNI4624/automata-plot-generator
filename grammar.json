@@ -2,101 +2,913 @@
   "Story": [
     [
       "Opening",
-      "Body",
-      "Ending"
+      "Development",
+      "Climax",
+      "Resolution"
     ]
   ],
   "Opening": [
     [
       "Introduction",
       "Character",
-      "Location"
+      "Location",
+      "Backstory"
     ]
   ],
   "Introduction": [
     {
       "expansion": [
-        "A rumor spreads through the town about a lost heirloom"
+        "Once upon a time,"
       ],
       "weight": 3
     },
     {
       "expansion": [
-        "A sudden storm forces strangers to shelter together"
+        "In a distant kingdom,"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "An old map is discovered in a library book"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "A festival begins with an unexpected disappearance"
+        "Long ago, in a forgotten age,"
       ],
       "weight": 1
+    },
+    {
+      "expansion": [
+        "In the year the stars misaligned,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "When the old roads still remembered every footstep,"
+      ],
+      "weight": 2
     }
   ],
   "Character": [
     {
       "expansion": [
-        "a brave knight who doubts his destiny; skilled with a blade; secretly compassionate"
+        "a wise wizard named Sayer"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "an inquisitive librarian who hoards maps; meticulous; socially awkward"
+        "a brave knight named Willa"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "a cunning merchant with a silver tongue; opportunistic; loyal to few"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a retired sea captain haunted by one lost voyage; weathered; superstitious"
+        "a cunning thief called Kaelen named Quillon"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a young apprentice mage eager to prove themself; curious; impulsive"
+        "a vengeful ghost known as the Mourner named Cador"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a mysterious stranger with silver eyes named Aeron"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "a village healer who knows old remedies and secrets; calm; morally firm"
+        "a gentle giant named Ynyr"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a shadowy assassin from the Crimson Guild named Gideon"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a brilliant alchemist seeking the elixir of life named Xabat"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "a street performer who sees more than they show; observant; playful"
+        "a disgraced noble looking for redemption named Heulwen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a wild druid who speaks to the trees named Prydwen"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a disgraced noble seeking redemption; proud; resourceful"
+        "a fierce pirate captain from the Azure Sea named Xanthea"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a blind monk with heightened senses named Wenna"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "an enigmatic traveler with a hidden agenda; mysterious; multilingual"
+        "a clockwork automaton with a soul named Jenara"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a child prodigy who notices patterns adults miss; bright; fearless"
+        "a fallen angel seeking to return to grace named Fendrel"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a rogue scholar who discovered forbidden secrets named Morcant"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a nomadic hunter from the frozen wastes named Uriana"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a charismatic bard with a silver tongue named Vale"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a haunted soldier from a forgotten war named Dwyn"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a young orphan with untapped magical potential named Aldwin"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a dragon-slayer who lost their purpose named Seren"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a visionary inventor of steam-powered marvels named Ruan"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a silent executioner haunted by their past named Vesna"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a spirited rebel fighting against tyranny named Giselle"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a grumpy dwarf smith with a heart of gold named Ruan"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a graceful elf ranger from the Whispering Woods named Gideon"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a mad scientist obsessed with lightning named Kaelen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a stoic paladin bound by a sacred oath named Cai"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a mischievous sprite from the Feywild named Aelar"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a weary traveler from a land that no longer exists named Odran"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a fearless gladiator who won their freedom named Idris"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a secretive spymaster with a web of informants named Talfryn"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a cursed werewolf seeking a cure named Oona"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a legendary hero who came out of retirement named Heulwen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a determined medic on the front lines named Eulalia"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a cynical mercenary who only works for gold named Briony"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a lonely lighthouse keeper on a jagged coast named Fendrel"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a dreamer who can walk through others' nightmares named Drusilla"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a banished prince trying to reclaim his throne named Zane"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a gifted healer who cannot heal themselves named Rhian"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a wandering samurai seeking a worthy opponent named Nerys"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a necromancer who only wants to say goodbye named Jowan"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a star-crossed lover from a rival house named Lorcan"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a brave scout who knows every hidden path named Idelle"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a reclusive hermit with infinite wisdom named Rosalind"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a daring aviator in a world of floating islands named Rosalind"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a stone-faced guard who never breaks formation named Wynne"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a prophet who saw the end of the world named Xiomara"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a treasure hunter who found more than they bargained for named Petra"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a simple farmer caught in the middle of a war named Kenver"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a master of disguise who forgot their true face named Una"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a weary librarian in a library of infinite books named Linnet"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a young squire dreaming of glory named Niamh"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a powerful sorceress with a dark secret named Jenara"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a cartographer who charted regions that shift overnight named Ffion"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a beekeeper whose hives distill rumors into honey named Finn"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a rope dancer who negotiates treaties midair named Katell"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a forensic chef who reads crimes in kitchen dust named Juno"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a sigil lawyer who argues contracts with spirits named Sabine"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a tide accountant who balances harbors like ledgers named Finian"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a lantern mender who repairs broken moons named Aeron"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a storm chaperone who escorts disasters politely out named Avalon"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a bookbinder who sews vanished chapters back into spines named Aeron"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a meteor shepherd who herds shooting stars away from cities named Searlait"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a rust prophet who translates corrosion into timelines named Thorne"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a violin duelist who wins fights in quarter notes named Name218"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a cloud tailor who stitches thunder into linings named Fendrel"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a memory notary who stamps recollections as legal tender named Zennor"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a moss diplomat who speaks slowly and wins slowly named Jenara"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a glassblower who traps echoes inside paperweights named Hadrien"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a dust knight who fights allergies like dragons named Morwen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a starlit paramedic who bandages constellations named Anwen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a rumor cartographer who maps whispers street by street named Bronte"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a rain broker who sells showers on installment named Ivor"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a ink river guide who ferries letters upstream named Cedric"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a bone architect who remodels skeletons for endurance named Fiora"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a shadow veterinarian who treats silhouettes for lameness named Fendrel"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a oath mechanic who tunes promises until they hum true named Finian"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a midnight baker whose bread reveals tomorrow's weather named Eirwen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a fossil clown who makes extinct audiences laugh anyway named Nereus"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a wind notary who notarizes gusts named Sayer"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a grief engineer who builds bridges from tears named Ygraine"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a spice inquisitor who interrogates pepper until it confesses named Branoc"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a horizon launderer who bleaches sunsets back to innocence named Yelena"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a flute assassin whose notes cut purse strings only named Ruan"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a marble tutor who teaches statues to blink once named Elowen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a thunder therapist who listens to storms without interrupting named Nisien"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a parchment lifeguard who pulls swimmers from archives named Faolan"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a velvet blacksmith who hammers softness into armor named Geraint"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a compass therapist who reorients lost guilt named Ffion"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a snow attorney who defends flakes against accusations named Rhian"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a moth librarian who catalogs holes in knowledge named Elowen"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a vinegar sage who pickles prophecies for winter named Oberon"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a hourglass banker who loans minutes at cruel interest named Emeric"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a quilt general who mobilizes patches into formation named Ivar"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a root whisperer who translates vegetables' grievances named Oriana"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a soap historian who washes sins out of chronicles named Name216"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a chandelier medic who resets lights' heartbeats named Rhian"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a gravel poet who writes epics in crunch patterns named Dwyn"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a chalk sentinel who redraws borders when bullies nap named Nisien"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a fog banker who invests in visibility futures named Gorlois"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a feather blacksmith who forges quills that debate back named Torin"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a wandering judge who weighs hearts with honest thumbs named Zephyr"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a tea oracle who reads leaves like litigation named Soren"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a sand pilot who navigates dunes by taste named Maeve"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a choir spy who steals secrets in harmony named Orlaith"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bridge therapist who counsels planks through anxiety named Iskander"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a candle scientist who measures darkness in wax grams named Anwen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a map eater who digests borders to calm nations named Drystan"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a ribbon general who ties armies into bows named Gwyneth"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a hail negotiator who bargains with sky for crops named Caius"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a root doctor who prescribes soil walks named Uther"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a mirror coach who trains reflections to flinch less named Xenos"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a flour witch who kneads futures into dough named Nisien"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a gravel ambassador who speaks only in crunch dialects named Name217"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a ink detective who follows stains like breadcrumbs named Vaughn"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a cloud notary who stamps cumulus with approvals named Haldor"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bone librarian who shelves marrow like manuscripts named Hadrien"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a storm accountant who audits lightning losses named Owyn"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a velvet geologist who studies softness under pressure named Xanthe"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a moth diplomat who trades wingdust for truces named Name218"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a vinegar knight who seasons courage sour and strong named Elowen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a snow historian who preserves avalanches in jars named Briallen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a ribbon engineer who suspends bridges from silk named Talia"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a hourglass medic who performs triage on wasted time named Briallen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a frost lawyer who defends icicles in spring court named Kian"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a thunder cartographer who maps sound before light named Talfryn"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a chalk witch who hexes arrogance into equations named Wren"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a root assassin who ends tyrants via tripped thresholds named Torin"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a soap paladin who washes corruption without drama named Taran"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a chandelier thief who steals only ugly light named Rhonwen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a gravel monk who prays in percussive rosaries named Elidyr"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a fog notary who witnesses disappearances legally named Una"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a feather scholar who indexes plumes like evidence named Xander"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bone sailor who navigates reefs by listening to calcium named Vaughn"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a spice paladin who defends bland towns from mediocrity named Name219"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a horizon thief who steals sunsets for the colorblind named Soren"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a flute cartographer who maps valleys by echo returns named Ygraine"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a marble witch who animates statues only during eclipses named Faolan"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a thunder baker who kneads storms into sourdough named Cedric"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a parchment pilot who sails contracts through bureaucratic fog named Lyra"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a velvet assassin who silences arrogance with a shush named Geraint"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a compass witch who spins needles until truth dizzy falls out named Cairbre"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a snow broker who sells silence by the drift named Iona"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a moth paramedic who rescues flames from light addiction named Briony"
       ],
       "weight": 1
     }
@@ -104,410 +916,806 @@
   "Location": [
     {
       "expansion": [
-        "the cobbled market square at dawn, stalls half-closed and gulls circling"
+        "in the dark forest of Thornwood,"
       ],
       "weight": 3
     },
     {
       "expansion": [
-        "an ancient library with spiral staircases and dust-mapped sunlight"
+        "in the haunted castle of Ravencrest,"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "a fog-wrapped harbor where lanterns bob like distant stars"
+        "on the distant planet of Xerion,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "beneath the shimmering waterfall of Illura,"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "a ruined watchtower overlooking a silver river"
+        "inside the clockwork tower of Mechanis,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a hidden garden behind ivy-covered walls, fragrant and secretive"
+        "in the sunken city of Atlantia,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a cramped attic filled with trunks of forgotten lives"
+        "across the endless desert of sighs,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a bustling caravanserai at the crossroads of three kingdoms"
+        "within the neon-lit alleys of Neo-Tokyo,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "atop the peak of the Frozen Fang,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "deep inside the crystalline caves of Kael,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a moonlit cliff path where the wind carries distant songs"
+        "at the edge of the world where stars fall,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a subterranean market lit by bioluminescent fungi"
+        "in the bustling market of Golden Sands,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "amidst the ruins of the ancient library,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "inside a giant, hollowed-out tree,"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a royal court chamber with tapestries that whisper history"
+        "on a floating island drifting in the clouds,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "within the belly of a leviathan,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in the silent halls of the Mirror Palace,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "at the crossroads of the Seven Realms,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "in the shadow of the colossal volcano,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "within a dream that refused to end,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in the secret garden of the Moon Queen,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "on the deck of a ghost ship sailing the mist,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "under the roots of the World Tree,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "in the heart of the Emerald Labyrinth,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "within the high-tech labs of Cyber-Dyne,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in the quaint village of Willowbrook,"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "at the bottom of a deep, forgotten well,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "inside the emperor's forbidden garden,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "on the wind-swept plains of the North,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "in the shimmering halls of the Elven court,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "amidst the wreckage of a crashed starship,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in the bustling port of Azure Bay,"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "at the threshold of the Spirit Realm,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "along the ridgeline where lightning rehearses speeches,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "inside a bankrupt observatory full of honest stars,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "near the pier where knots learn to untie themselves,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "between two kingdoms scheduled for mutual forgetting,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "at the mouth of a canyon that hums in thirds,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in a salt flat where mirrors argue with the sun,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "within a greenhouse of carnivorous orchids,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "on a tram line suspended over a city of smoke,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "beside a river dyed indigo for treaty-signing week,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "under a tree whose roots transcribe confessions,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in a ward where sleep is rationed by polite clerks,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "at the lip of a crater filled with polite rain,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "inside a vault built to store unfinished songs,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "on a glacier that grants wishes only in celsius,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "near a bridge toll paid in memories, not coin,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in a district zoned for duels at dawn and diplomacy at lunch,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "within a market where every stall sells alibis,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "at the edge of a map where cartographers wept,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "inside a bathhouse heated by dragon payroll,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "on a cliff where winds draft legal complaints,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "in a fen where fireflies spell out warnings,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "within a scriptorium that corrects authors overnight,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "at the center of a maze replanted each season,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "near a lighthouse built inverted into the seabed,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "inside a granary that measures harvests in whispers,"
       ],
       "weight": 1
     }
   ],
-  "Conflict": [
+  "Backstory": [
     {
       "expansion": [
-        "betrayal by a trusted ally"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "race against time to stop a ritual"
+        "Before this,",
+        "DescriptionSentence"
       ],
       "weight": 2
     },
     {
       "expansion": [
-        "moral dilemma: save one or many"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "class clash between noble and commoner"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "internal conflict: fear vs duty"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "misunderstanding that escalates to violence"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a secret identity is exposed"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "resource scarcity sparks competition"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a legal accusation threatens reputation"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "supernatural omen divides the town"
+        "Before this,",
+        "DescriptionSentence",
+        "DescriptionSentence"
       ],
       "weight": 1
     }
   ],
-  "Resolution": [
+  "DescriptionSentence": [
     {
       "expansion": [
-        "truth revealed publicly; reputations reshaped"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a sacrifice averts disaster"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "an unexpected alliance solves the problem"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "the antagonist is redeemed rather than punished"
+        "they had wandered long roads with nothing but stubborn faith."
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a clever trick exposes the conspiracy"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "the object sought is destroyed to prevent misuse"
+        "they had lost much, and learned to carry absence like a tool."
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a compromise that leaves everyone changed but alive"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "the mystery remains partially unsolved, hinting at more"
+        "they had been warned by elders, dreams, and common sense alike."
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "legal or formal restitution restores balance"
+        "they had survived a winter that taught them how hunger thinks."
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a personal revelation heals an internal wound"
+        "they had once believed the world was simpler than it proved to be."
       ],
-      "weight": 2
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had made mistakes that still echoed in quiet hours."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had been chosen, cursed, or merely unlucky—no one agreed which."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had followed a trail of small lies until it became a road."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had sworn oaths to people who were gone or changed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to read danger in the tilt of a smile."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had traded comfort for a purpose that refused to let them rest."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had heard rumors until rumors became a map."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had trained until their body obeyed before their fear did."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had kept a secret so long it felt like a second spine."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had been broken once, and rebuilt with stranger seams."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had loved someone who taught them the cost of mercy."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had fled a fire only to discover they carried sparks inside."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had waited years for a door that finally groaned open."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had studied old texts until the words began to study them back."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had crossed borders where names changed and truth thinned."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had owed debts to powers that did not forget."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had seen enough to doubt happy endings, yet still reached for one."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to sleep light and wake ready."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned which oaths could be bent without breaking."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had carried a name that fit like borrowed armor."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had followed a star, a song, or a scream—perhaps all three."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had been told they were too ordinary until the road disagreed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had sharpened kindness until it could cut clean as steel."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had buried faces they missed more than they admitted."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to read palms and weather with equal suspicion."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had traded horse for boat and pride for speed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had mapped nightmares until a route appeared in daylight."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had kept faith like a coal blown gently bright again."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned that silence could be shelter or bait."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had chased echoes until one introduced itself as memory."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had stitched pride back into their voice after humiliation."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had memorized roads by the sound of gravel under boots."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had refused a throne and inherited its shadows anyway."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to laugh where laughter was a kind of shield."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had studied birds until flight seemed like honesty."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had carried water for strangers until kindness became habit."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had measured time by how many doors still scared them."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to bargain without selling the parts worth saving."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had followed smoke to fires that warmed and fires that judged."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had practiced mercy until it looked like strategy."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to kneel without surrendering spine."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had stolen only what shame later called necessity."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had kept a list of names they intended to outlive."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to sing low so enemies underestimated range."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had mistaken luck for virtue once and paid tuition."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had braided rosemary into cloaks to calm their own breath."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned which wells held gossip and which held water."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had sharpened questions until answers arrived bruised."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had mistaken tenderness for trap and trap for tenderness."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had followed ship lights until shore became negotiable."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had taught their hands to remember gentleness after war."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to read a crowd like a weather front."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had buried coins for travelers they would never meet."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had practiced walking away until it stopped looking like cowardice."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to pray in verbs instead of promises."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had mistaken hunger for destiny until bread corrected them."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had followed footprints that told two stories at once."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned that every exile invents a hometown."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had carried someone else's hope until it fit their hands."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they had learned to close doors so softly fear missed the click."
+      ],
+      "weight": 1
     }
   ],
-  "Epilogue": [
+  "Development": [
     {
       "expansion": [
-        "a quiet scene showing how lives have shifted six months later"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a final clue hints at a new adventure"
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "a festival commemorates the events and honors the lost"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a letter arrives that reframes the whole story"
-      ],
-      "weight": 1
-    }
-  ],
-  "Dialogue": [
-    {
-      "expansion": [
-        "\"We all carry maps of the past; some of us just refuse to read them.\""
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "\"If you want the truth, be ready to lose something you love.\""
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "\"I never promised you safety, only that I'd stand beside you.\""
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "\"Secrets are like seeds; they sprout whether you tend them or not.\""
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "\"Sometimes the bravest thing is to ask for help.\""
-      ],
-      "weight": 2
-    }
-  ],
-  "Emotions": [
-    {
-      "expansion": [
-        "hopeful"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "anxious"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "betrayed"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "nostalgic"
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene"
       ],
       "weight": 1
     },
     {
       "expansion": [
-        "resolute"
-      ],
-      "weight": 2
-    }
-  ],
-  "Event": [
-    {
-      "expansion": [
-        "a chase through narrow alleys"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a secret letter is revealed"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a bargain is struck with unexpected terms"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a ritual goes wrong and changes the weather"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a hidden passage is discovered beneath a tavern"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "an old friend returns with new loyalties"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a public accusation forces a trial of sorts"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a map leads to a place that doesn't exist on any chart"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a small kindness changes the course of a character's choice"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "a theft reveals a deeper conspiracy"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a storm strands characters together for a night"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "a coded message is decoded by the child prodigy"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a duel of words escalates into a duel of skill"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a bargain with a merchant yields a cursed object"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "a discovery forces a character to choose between truth and safety"
-      ],
-      "weight": 3
-    }
-  ],
-  "Events": [
-    {
-      "expansion": [
-        "Event"
-      ],
-      "weight": 4
-    },
-    {
-      "expansion": [
-        "Event",
-        "Event"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Event",
-        "Event",
-        "Event"
-      ],
-      "weight": 1
-    }
-  ],
-  "Subplot": [
-    [
-      "Story"
-    ]
-  ],
-  "Subplots": [
-    {
-      "expansion": [
-        "Subplot"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "Subplot",
-        "Subplot"
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene"
       ],
       "weight": 1
     }
@@ -515,79 +1723,6409 @@
   "Scene": [
     {
       "expansion": [
+        "OptAtmosphere",
+        "EventSequence",
+        "OptThought",
+        "OptSceneDialogue",
+        "OptTransition"
+      ],
+      "weight": 1
+    }
+  ],
+  "EventSequence": [
+    {
+      "expansion": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
         "Event"
       ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "Events"
-      ],
-      "weight": 2
+      "weight": 1
     },
     {
       "expansion": [
         "Event",
-        "Dialogue"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
         "Event",
-        "Emotions"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Events",
-        "Dialogue"
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
       ],
       "weight": 1
     },
     {
       "expansion": [
         "Event",
-        "Conflict"
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
       ],
       "weight": 1
     }
   ],
-  "Body": [
+  "Event": [
     {
       "expansion": [
-        "Scene"
-      ],
-      "weight": 3
-    },
-    {
-      "expansion": [
-        "Scene",
-        "Scene"
-      ],
-      "weight": 2
-    },
-    {
-      "expansion": [
-        "Scene",
-        "Scene",
-        "Scene"
-      ],
-      "weight": 1
-    },
-    {
-      "expansion": [
-        "Scene",
-        "Subplots"
+        "ActionPhrase",
+        "OptEventDialogue",
+        "OptEventEmotion"
       ],
       "weight": 1
     }
   ],
-  "Ending": [
+  "ActionPhrase": [
+    {
+      "expansion": [
+        "they discovered a secret gate behind a statue."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a symbol carved into a clay."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a falling rocks using their cunning."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a code carved into a table."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a bandit in a arena."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a sparrow through the tundra."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a dagger hidden in a hollow tree."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a lock with rope."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a runes carved into a door."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a firefly that burned with purple flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a crystal hidden in a tower."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a riddle carved into a wood."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a sigh echoing from the graveyard."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a code carved into a floor."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a pit using their knowledge."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a proverb that made the enemies weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a curse using their stealth."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a crack echoing from the graveyard."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a wolf through the coast."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a coin for a safe passage with a thief."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a riddle carved into a clay."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the cave."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a beggar who was in injury."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret shaft behind a statue."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret portal behind a fountain."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a cat through the swamp."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret archway behind a mirror."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a giant in a dungeon."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a bandit in a street."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a scaffold overlooking the plain."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a sigh echoing from the tower."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a glyph carved into a table."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a illusion using their agility."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a barrel and found a flower."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret hallway behind a window."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a ballad that made the children weep."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a ship with bone."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the bridge."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a star that burned with gold flame."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a key hidden in a ruin."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a shout echoing from the temple."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a water for a shelter with a child."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a shield with bone."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a statue overlooking the city."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a basket and found a skull."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a minstrel who was in debt."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a pyramid overlooking the forest."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a ship with cloth."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a owl through the tundra."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a guard in a hall."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a ode that made the children weep."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a sword with stone."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a cupboard and found a letter."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a sea under the candlelight."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a script carved into a ceiling."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a fire using their stealth."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret vent behind a altar."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a spell that made the enemies weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a bay under the moonlight."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a cliff overlooking the cliff."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a orphan who was in curse."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a dragon in a street."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a match that burned with black flame."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a verse that made the enemies weep."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a waterfall under the glow."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a sonnet that made the court weep."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a curse using their strength."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a bay under the torchlight."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a pond under the sunset."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a sparrow through the mountain."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a torch that burned with silver flame."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a howl echoing from the bridge."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a cat through the tundra."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lantern that burned with silver flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a butterfly through the desert."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a scroll hidden in a shrine."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a orphan who was in injury."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a priest who was in injury."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a fire using their wits."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a deer through the coast."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a ice using their strength."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a raven through the mountain."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a spell that made the animals weep."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret vent behind a pillar."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a sigh echoing from the forest."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the market."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a cloak for a information with a scholar."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a water for a information with a elder."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a snake through the coast."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a runes carved into a ceiling."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a match that burned with silver flame."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a sack and found a key."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a bandit in a chamber."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a guard in a cavern."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lamp that burned with green flame."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a poison dart using their stealth."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a torch that burned with white flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a shield with rope."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a feather hidden in a shrine."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a falling rocks using their stealth."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a ring hidden in a tomb."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret corridor behind a tapestry."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a tower overlooking the lake."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a child who was in debt."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a statue overlooking the forest."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the graveyard."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a sword with silver."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret archway behind a pillar."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a pyramid overlooking the valley."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a secret for a safe passage with a guard."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a armor with silver."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a sonnet that made the elders weep."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a spell that made the crowd weep."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a drum echoing from the tower."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a lament that made the soldiers weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a runes carved into a table."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a torch that burned with violet flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a ghost in a dungeon."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a cloak for a horse with a hermit."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a ballad that made the guard weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a ghost in a hall."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a pouch and found a letter."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a bay under the candlelight."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a cart with leather."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a hymn that made the village weep."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a rope overlooking the forest."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a sigil carved into a metal."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a pyramid overlooking the lake."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a statue overlooking the plain."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a epic that made the soldiers weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a bread for a ally with a child."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a song echoing from the graveyard."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a skeleton in a street."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a swamp under the twilight."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a door with bone."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a chest and found a weapon."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the tower."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret hallway behind a tapestry."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a butterfly through the forest."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a sailor who was in danger."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a spell that made the court weep."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a cliff overlooking the city."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a cry echoing from the market."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a statue overlooking the sea."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a giant in a plaza."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a falling rocks using their magic."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a merchant who was in hunger."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a coin for a horse with a hermit."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a bridge with cloth."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a ocean under the dawn."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a rat through the tundra."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a song for a horse with a merchant."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a bridge with silver."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a cloak for a rope with a priest."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a merchant who was in danger."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a drum echoing from the village."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a minstrel who was in danger."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a cry echoing from the forest."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a beast in a courtyard."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a golem in a hall."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a amulet hidden in a ruin."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a dragon in a hall."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a beggar who was in curse."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a firefly that burned with orange flame."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a warlock in a courtyard."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a ridge overlooking the lake."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lantern that burned with blue flame."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a crystal hidden in a cellar."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a vase and found a message."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret portal behind a fireplace."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a curse using their luck."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a dragon in a chamber."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a sigh echoing from the village."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a skeleton in a bridge."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lantern that burned with black flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a scroll hidden in a cellar."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a ladder overlooking the lake."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a bridge with glass."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lantern that burned with purple flame."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a staircase overlooking the river."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a priest who was in hunger."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lamp that burned with black flame."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a howl echoing from the graveyard."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a pit using their luck."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a ghost in a bridge."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a fox through the valley."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a scaffold overlooking the cliff."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a pond under the torchlight."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a beggar who was in sickness."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a bell echoing from the village."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret doorway behind a throne."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a minstrel who was in cold."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a whisper echoing from the castle."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a bonfire that burned with black flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret corridor behind a pillar."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a cliff overlooking the plain."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a box and found a treasure."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a dagger for a food with a pilgrim."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a crack echoing from the castle."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a amulet hidden in a tomb."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a coin for a shelter with a pilgrim."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a rat through the meadow."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a language carved into a parchment."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a snare using their knowledge."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret hallway behind a mirror."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a beggar who was in hunger."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a song for a shelter with a elder."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a owl through the coast."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a widow who was in loneliness."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a coin for a shelter with a thief."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a boot for a safe passage with a elder."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a cat through the forest."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a sun that burned with black flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a statue overlooking the lake."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a riddle carved into a wall."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a bread for a lamp with a soldier."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a pit using their strength."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a script carved into a wall."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a box and found a trap."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a butterfly through the tundra."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret staircase behind a fireplace."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a wagon with glass."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lamp that burned with violet flame."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a sack and found a message."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a soldier who was in danger."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a howl echoing from the cave."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a farmer who was in curse."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a ladder overlooking the sea."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a lamp that burned with silver flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they found a map hidden in a hollow tree."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a warlock in a street."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a secret for a shelter with a elder."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a ice using their speed."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a sea under the moonlight."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a shout echoing from the forest."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a flood using their cunning."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret hallway behind a statue."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a riddle that made the children weep."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they helped a farmer who was in hunger."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a wolf through the valley."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a rope overlooking the cliff."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a barrel and found a message."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a riddle carved into a metal."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a star that burned with white flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a ballad that made the crowd weep."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a code carved into a clay."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a barrel and found a key."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they opened a basket and found a letter."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a coin for a horse with a guard."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a giant in a cavern."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a firefly that burned with red flame."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a giant in a chamber."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they confronted a ghost in a throne room."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a door with wood."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a lake under the firelight."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a bridge with leather."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they traded a song for a ally with a scholar."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they followed a raven through the swamp."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret archway behind a fireplace."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a language carved into a wall."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a symbol carved into a parchment."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a script carved into a stone."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they deciphered a cipher carved into a metal."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a pit using their wits."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a ballad that made the elders weep."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they recited a verse that made the guard weep."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they discovered a secret tunnel behind a mirror."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they lit a bonfire that burned with red flame."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they heard a laugh echoing from the castle."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they escaped from a curse using their speed."
+      ],
+      "weight": 1,
+      "act": "climax",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they climbed a rope overlooking the valley."
+      ],
+      "weight": 1,
+      "act": "resolution",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they swam across a pond under the glow."
+      ],
+      "weight": 1,
+      "act": "rising",
+      "precondition": {},
+      "effect": {}
+    },
+    {
+      "expansion": [
+        "they repaired a door with silver."
+      ],
+      "weight": 1,
+      "act": "setup",
+      "precondition": {},
+      "effect": {}
+    }
+  ],
+  "Dialogue": [
+    {
+      "expansion": [
+        " \"I will not turn back,\" they said quietly."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Listen,\" they breathed. \"Do you hear that?\" "
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Then we make our own fate,\" they answered."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Not without you,\" they replied, simple as a blade."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"What do you want from me?\" they asked the silence."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Stay close,\" they murmured. \"The path lies.\" "
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"No more secrets,\" they said, eyes hard with resolve."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Let them come,\" they said, and stood their ground."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I choose mercy,\" they said, surprising even themselves."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I never asked to be chosen,\" they admitted, bitter and honest."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Hold the line,\" they called to companions they could not see."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Forgive me,\" they said, though no one had asked."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I will pay the price,\" they vowed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Show yourself,\" they called, hand steady where fear wanted shake."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"We were warned,\" they said. \"We came anyway.\" "
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"If I fall, carry the message,\" they instructed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I don't believe in omens,\" they lied convincingly."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Then we do it the hard way,\" they said, and meant it."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"The story isn't finished,\" they said, almost smiling."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Mercy first,\" they said, testing the word like a blade's balance."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Give me one honest reason,\" they demanded of the dark."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I hear you,\" they answered a voice only they could hear."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Anchor me,\" they asked, smaller than they liked."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I am done running,\" they announced to an empty hall."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Say it plain,\" they asked, exhausted by poetry."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"We leave at dusk,\" they said, ending debate."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I trust you,\" they said, and watched what the word cost."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Gently,\" they warned, as if violence could be polite."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Again,\" they said, stubborn as a season."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Look up,\" they whispered. \"Don't bow to it.\" "
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"This is not bravery,\" they said. \"It's schedule.\" "
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Name your fear,\" they offered, oddly gentle."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I remember you,\" they said to someone they hoped was listening."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"We eat,\" they said, restoring civilization by bread."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Speak or go,\" they told the threshold."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Not tonight,\" they said to death, politely."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Tell me the truth, even if it breaks me,\" they said."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"We still have time,\" they whispered."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I choose the next step,\" they said."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"Tell me the truth, even if it breaks me,\" they whispered."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"We still have time,\" they said."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " \"I choose the next step,\" they whispered."
+      ],
+      "weight": 1
+    }
+  ],
+  "Emotion": [
+    {
+      "expansion": [
+        " A stubborn hope warmed their chest despite everything."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Fear clawed at them, yet they kept moving."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Grief pressed behind their eyes like a tide held back."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " A fierce, unfamiliar pride straightened their shoulders."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Shame flickered and then hardened into resolve."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Wonder broke through weariness like dawn through smoke."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Loneliness settled in their ribs, familiar as an old wound."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Rage burned clean, leaving clarity in its wake."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Doubt whispered, but they refused to answer on its terms."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Relief loosened knots they had carried for days."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " A strange calm descended, the kind that follows a decision."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Love—unexpected and inconvenient—caught them off guard."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Exhaustion dragged at their limbs, yet their mind stayed sharp."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Bittersweet gratitude ached in their throat."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They felt small beneath the weight of the moment."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Courage arrived not as bravery, but as refusal to quit."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Regret tasted like metal on their tongue."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They trembled, then steadied, then chose the next step."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Something like faith settled where logic had failed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They smiled through tears they did not bother to hide."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " A cold clarity cut through the noise of their thoughts."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They felt watched, judged, and strangely unalone."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Humility softened their edges without dulling their purpose."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Anticipation thrummed in their veins like a plucked string."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They carried the moment carefully, as if it were glass."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Gratitude hurt, sharp and sweet as winter air."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Disgust rose, then transformed into a tool they could use."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Awe widened them until fear had less room."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Tenderness surprised them more than danger ever had."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Resolve squared their spine where worry had curled it."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Laughter bubbled up, irreverent and lifesaving."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Nostalgia tugged sideways, a tide they refused to swim."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Confusion sharpened into questions worth answering."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Confidence arrived quietly, without brass or boasting."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Vulnerability felt like stepping onto ice that held."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Yearning burned without promising satisfaction."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Peace arrived ugly, practical, and wearable."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Indignation straightened their words into spears."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Weariness became a blanket they refused to hide under."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Curiosity opened doors pride would have kept shut."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Affection ambushed them during an argument."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Suspicion mapped exits before the room finished lying."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Satisfaction felt dangerous, like a gift with strings."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Despair touched them and left, refused service."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Serenity seemed borrowed and they accepted the loan."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Irritation honed their focus into a needle."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Sympathy softened their hands without dulling their aim."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Misgiving paced their ribs like a caged animal."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Boldness tinted the world brighter than lanterns."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Quiet joy threaded through pain like gold in dark cloth."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Protectiveness rose, ancient as fire."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Insecurity hissed; they answered with work."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Longing pressed against their ribs like a second heartbeat."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Shyness peeled away when duty knocked louder."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Euphoria tried to land; they tethered it to facts."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Melancholy sat beside them without asking permission."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Amusement arched an eyebrow at fate's performance."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Respect grew where contempt had been budgeted."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Disappointment settled, then composted into fuel."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Comfort arrived in a stranger's small kindness."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Clarity cut close enough to bleed a little."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Warmth pooled in their hands returning from cold air."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Dread sharpened each sense unbearably, usefully."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Pride loosened its collar and learned to whisper."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Self-protection lowered shields by a breath, on purpose."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Honesty stung their throat raw and felt wholesome."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Compassion rearranged priorities without asking politeness."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Impatience tapped a rhythm they matched to movement."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Patience felt like strength disguised as waiting."
+      ],
+      "weight": 1
+    }
+  ],
+  "Atmosphere": [
+    {
+      "expansion": [
+        "The air was thick with tension."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A cold wind blew, carrying the scent of rain and rust."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The world held its breath, as if listening for a name."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Distant thunder rolled like a borrowed drum."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Fog threaded between the trees and swallowed small sounds."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Lantern light trembled on wet cobblestones."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The silence was not peace; it was waiting dressed as calm."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Heat shimmered above the road in restless, guilty waves."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Stars sharpened until the sky felt close enough to cut palms."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The hour felt suspended between yesterday and a sharper tomorrow."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Birdsong cut off all at once, unnaturally still."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Ash drifted like slow snow from a sky the color of iron."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The market noise faded until only heartbeats argued."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Salt stung the air, sharp and bracing as truth."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A bell tolled once, and every face turned toward it."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The forest smelled of pine resin and older, wetter secrets."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Candle smoke curled like handwriting no one could read yet."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A dog barked once, listened, and refused a second time."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The river ran higher, carrying voices downstream."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Clouds stacked like ledgers full of unpaid oaths."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The heat of the forge kissed the street through open doors."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Someone swept glass in the distance, a crisp, nervous rhythm."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The moon looked smaller, as if the night had flinched."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A choir practiced a hymn that kept changing key."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The palace shutters rattled though no hand touched them."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Snow hesitated midway, as if asking permission to fall."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The harbor smelled of tar, oranges, and unwashed luck."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The wind carried chimney smoke in a straight, deliberate line."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Footprints crossed each other until the road looked argued over."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The orchard smelled like bruised apples and patience."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The cathedral drafts played a single long note endlessly."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A cartwheel squealed like an animal refusing work."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The desert air tasted of metal and swallowed echoes."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Lightning wrote a crooked signature everyone pretended not to see."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The tavern went quiet when the stranger counted coins slowly."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Ice crackled on the eaves like whispered warnings."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The meadow grass lay flat as if pressed by an invisible palm."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The tavern clock refused twelve and lingered on eleven."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Rain drummed on canvas awnings like impatient fingers."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The mountain pass exhaled a breath cold enough to cut skin."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A bell rope frayed thread by thread in the humid air."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The city smelled of fried onions, ink, and something burning."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A fountain ran, but the water looked too clear to trust."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The battlefield smelled like wet iron and used-up courage."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Paper curled in the heat, edges lifting like startled birds."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A child laughed once, high and bright, and adults flinched."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Smoke hung low, as if ashamed to rise."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The stairwell smelled of beeswax and someone else's worry."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The horizon jittered faintly, a heat trick or a promise."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Horses shifted in the stable, coats dark with nervous sweat."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The lane narrowed until two honest people could not pass unchanged."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Glass windows reflected torches twice, as if time had a twin."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A door stuck, then gave, exhaling a breath of cold cellar air."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The prison corridor smelled of lye, bread, and tired stone."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The marsh bubbled softly, polite about its hunger."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The valley wind carried needle-pine and distant drums."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Someone tuned a fiddle badly, on purpose, as a warning."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The arena sand had been raked into impossible straight lines."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The orchard gate hung crooked, inviting trouble politely."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The harbor bell rang sour, as if embarrassed by its job."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The cliff face sweated dew though the sun had not risen."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The abbey cloister smelled of thyme and quietly held breaths."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A bridge rope thrummed with tension and distant footsteps."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The workshop smelled of ozone, oil, and stubborn hope."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Sand hissed against shutters like impatient parchment."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A hawk circled once, declined a second pass, and left."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The throne room candles burned blue at the very edge of wicks."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Rain tasted clean until lightning made the air taste copper."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The lane lamps flickered in sequence, spelling nothing kind."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The river mud released bubbles like slow, buried speech."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The stair smelled of iron polish and someone's polished fear."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A fiddle bow scraped silence until silence answered back."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The courtyard well rope coiled like something pretending sleep."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The morning mist hid teeth; the afternoon would prove it."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A gateward coughed; the echo traveled farther than politeness."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The cliff path felt narrower once you noticed the drop."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The bakery oven coughed heat into a street already nervous."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The graveyard path softened, as if the ground remembered knees."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "A shutter flapped a rhythm out of step with the wind."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The ship's rigging sang a thin, skeptical song."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The canyon breathed out warmth it had stolen all morning."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The tunnel mouth exhaled a draft that tasted of libraries."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The fairground lights buzzed, hungry for dusk."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The courtyard fountain coughed once, then pretended innocence."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Smoke painted the sunset with colors the sermon had forbidden."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The ridge wind tugged at cloaks like impatient hands."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The harbor cleat gleamed where a thousand ropes had worried it."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The barn smelled of hay, old blood, and new decisions."
+      ],
+      "weight": 1
+    }
+  ],
+  "Thought": [
+    {
+      "expansion": [
+        "They wondered if it would ever end, and what ending could mean."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked themselves what price they were willing to pay for one more dawn."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought of home, and whether it still existed in any honest sense."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned every kindness, searching for a hook buried in sugar."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They replayed old failures until their jaw ached from clenching."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They imagined another life, softer, smaller, and cruel in its comfort."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried not to think of the worst, and failed with impressive thoroughness."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They counted breaths until their pulse slowed into something usable."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They felt time bend, cruel and intimate as a held hand."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered who they would be when this was over—if anyone would be."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They measured courage against exhaustion and found both stubbornly present."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wished for a sign, then feared receiving one too clearly."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They remembered a promise and tightened their grip on it until it hurt."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected the truth was worse than the lie everyone preferred."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They felt watched by something older than the road and less impressed."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They told themselves fear was only information, then listened poorly anyway."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if mercy would be mistaken for weakness by wolves."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They rehearsed apologies they might never get to trade."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They considered running, then named the reasons running would follow them."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They felt gratitude arrive uninvited, inconvenient, undeniable."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked the night a question and pretended the echo was an answer."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if love was a luxury their mission could survive."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to inventory their regrets and ran out of paper."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They told themselves stories to stay human, even if stories lied."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected their hands had learned violence too easily."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered what forgiveness would cost the people wronged least."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They traced their scars like a map of classrooms they never chose."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They feared becoming the thing they were hunting."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They hoped, cautiously, like someone testing a frozen lake."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They weighed duty on one palm and love on the other; neither balanced."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They recalled a lullaby and felt dangerously young again."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked whether salvation could arrive dressed as defeat."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They listened for their old name and barely recognized its sound."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if the gods were listening or merely taking notes."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to feel nothing, and felt everything sharpen."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They considered how many lies a good outcome can excuse."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about bread, suddenly, and missed it like a country."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if they were the hero or the lesson."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned every map, especially the one in their chest."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They imagined the aftermath and flinched from its empty rooms."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They hoped their courage would not be quoted out of context later."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked the storm politely, inside themselves, to wait."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if grief was a river or a weapon you polished."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to remember who benefited from their silence."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected laughter had become a currency they were short on."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked if redemption required witnesses or only witnesses' absence."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered whether trust could be repaired like pottery."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought of the last safe door and how quickly 'safe' ages."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned their memory, the sneakiest storyteller of all."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They imagined future children judging them with clear, brutal eyes."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if patience was bravery slowed down."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to name the feeling between dread and determination."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked whether hope was discipline wearing a softer mask."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They considered how much truth a friendship can survive at once."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if the road was teaching them or using them."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about sleep as if it were a distant relative."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned the kindness of strangers and still accepted water."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to rehearse grief and found it refused rehearsal."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if every crown began as a circle of thorns negotiated."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked themselves what they would trade for one honest mirror."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about rivers, and how they never apologize for carving."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected their courage was made from borrowed minutes."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if the villain had once asked the same questions."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to decide whether doubt was wisdom or exhaustion."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked if love could be proven without someone paying for the proof."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought of music and felt dangerously close to tears."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered whether peace was a place or a practice."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned their hunger for vengeance like a doctor palpating."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to imagine a quiet life and failed beautifully."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked if sacrifice stops hurting once you name it noble."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered how many apologies a city can drink before drowning."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about fire, and how it pretends to be honest."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected they were being softened for a harder lesson."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked the stars for privacy; the stars offered distance."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if courage always looked like shaking hands."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to inventory their loves and found the list unclosable."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked whether mercy could be strategic without becoming cruel."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about scars as a language written without consent."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if tomorrow would forgive them for surviving today."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They questioned the story they had been told about themselves."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to pray without bargaining; it felt like learning to swim."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked if endings were kinder when shared."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered whether truth could arrive too early and spoil."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about coins, crossings, and how both demand choices."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They suspected joy had gone into hiding until the work finished."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked whether loyalty could survive being tested twice."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They wondered if every blessing arrived with a shadow subscription."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They tried to feel the boundary between instinct and prejudice."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They asked if home was a person, a place, or a permission."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "They thought about water, and how it always finds the lowest truth."
+      ],
+      "weight": 1
+    }
+  ],
+  "TransitionToNextScene": [
+    {
+      "expansion": [
+        "Later that day,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "The next morning,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the sun dipped low,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As night tightened its grip,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After hours of careful planning,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "By midday, the road had changed them again,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "In the hush between heartbeats,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the bells rang out across the valley,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a brief rest that felt like stolen time,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the tide turned and the harbor stirred,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the storm finally broke,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Under a sky bruised with color,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "Once the crowd thinned and footsteps faded,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the candles burned down to stubborn nubs,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the first snow hesitated on the ridge,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a meal that tasted like a truce,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While the guards changed shift and clocks argued,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the forest opened into a clearing nobody mapped,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the city gates sighed shut for curfew,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the river rose to swallow the stepping stones,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a messenger arrived breathless and word-heavy,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While thunder cleared its throat over the mountains,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the market bells announced both bread and bad news,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As dawn peeled the night back like bark,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the ink dried on a document nobody wanted to sign,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When hoofbeats slowed to a respectful walk,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As fog lifted from fields stitched with footprints,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the cathedral choir paused between verses,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After laughter peeled through a hall like thin ice breaking,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While a distant hammer and anvil argued in rhythm,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the watch changed and lanterns swapped hands,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the tide revealed a path that wasn't there at noon,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a child pointed at something adults pretended not to see,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the rain paused, polite as a held breath,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the banquet ended and knives were counted,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the horizon swallowed the last friendly color,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After signatures hardened wax into brittle proof,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While bees returned late to hives heavy with rumor,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the map tore along a fold it had been hiding,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the wind turned and carried a stranger's perfume,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the oath left their mouth and could not be cupped back,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When drums began somewhere beyond the nearest hill,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As a bell rope broke and silence took its shift,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the ship's lantern started swinging like a pendulum,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After they counted coins and found morality expensive,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While the orchard released apples into bruising gravity,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the courtroom doors opened on yesterday's weather,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As moonlight stepped through a window it hadn't paid for,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the wound stopped pretending to be small,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the parade turned a corner into narrower destiny,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the fountain resumed speaking after being silenced,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When boots found purchase on ice that promised nothing,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a hinge screamed and a secret became inevitable,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While smoke wrote its slow handwriting across the valley,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the desert night dropped its temperature like a verdict,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the lighthouse beam discovered them, willing or not,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a vow exchanged hands heavier than steel,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the echo finally caught up with the shout,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As morning light made every lie look well-rested,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the theater crowd thinned to the stubborn and the lost,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the pilgrimage path narrowed between two honest stones,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As soup cooled into a broth of practical decisions,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the watchtower flag tied itself into a nervous knot,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the manuscript shed a page like a deciduous guilt,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While gulls argued over a harbor full of borrowed time,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the ridge offered wind enough to peel cowardice away,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the spire's shadow clocked their choices like sundial teeth,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the bridge planks tested their weight with honest creaks,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When lanterns were lowered, signaling a darker kind of business,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As dust settled on every promise left out in the open,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the lullaby ended and the nursery listened harder,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the tide brought in splinters shaped like old crowns,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the council room emptied, leaving politics on the table,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After a door marked 'private' sighed open anyway,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While the mural's eyes followed them with indecent attention,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the city exhaled smoke the color of borrowed dawn,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As boots crossed a threshold painted with warnings in chalk,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the trial's last word hung like smoke in winter air,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When bells disagreed across two districts about the hour,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the river ferry bumped the dock like a blunt confession,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After heat lightning sketched futures nobody asked to see,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While the archive's dust tasted like postponed consequences,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the road offered three forks and no polite advice,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the fortress gate teeth closed with a reluctant finality,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the tavern song changed key and allegiances followed,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the meadow mist thickened into a soft wall,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "As the market cleared, leaving gossip like spilled grain,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "After the mirror steamed and wrote a name backward,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "While distant wolves rehearsed harmonies the moon ignored,"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "When the pilgrimage bell rang thin, as if embarrassed,"
+      ],
+      "weight": 1
+    }
+  ],
+  "OptAtmosphere": [
+    {
+      "expansion": [
+        "Atmosphere"
+      ],
+      "weight": 5
+    },
+    {
+      "expansion": [],
+      "weight": 3
+    }
+  ],
+  "OptThought": [
+    {
+      "expansion": [
+        "Thought"
+      ],
+      "weight": 4
+    },
+    {
+      "expansion": [],
+      "weight": 4
+    }
+  ],
+  "OptSceneDialogue": [
+    {
+      "expansion": [
+        "Dialogue"
+      ],
+      "weight": 4
+    },
+    {
+      "expansion": [],
+      "weight": 4
+    }
+  ],
+  "OptTransition": [
+    {
+      "expansion": [
+        "TransitionToNextScene"
+      ],
+      "weight": 6
+    },
+    {
+      "expansion": [],
+      "weight": 2
+    }
+  ],
+  "OptEventDialogue": [
+    {
+      "expansion": [
+        "Dialogue"
+      ],
+      "weight": 5
+    },
+    {
+      "expansion": [],
+      "weight": 3
+    }
+  ],
+  "OptEventEmotion": [
+    {
+      "expansion": [
+        "Emotion"
+      ],
+      "weight": 5
+    },
+    {
+      "expansion": [],
+      "weight": 3
+    }
+  ],
+  "Climax": [
     [
-      "Resolution",
+      "Then, suddenly, ",
+      "Conflict",
+      ". ",
+      "OptClimaxTwist"
+    ]
+  ],
+  "OptClimaxTwist": [
+    {
+      "expansion": [
+        "Twist"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [],
+      "weight": 3
+    }
+  ],
+  "Twist": [
+    [
+      "But no one expected that ",
+      "TwistPhrase",
+      "."
+    ]
+  ],
+  "TwistPhrase": [
+    {
+      "expansion": [
+        "the ally had been the architect of the plot all along"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the curse and the cure were the same words spoken differently"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the enemy had saved them once, for reasons still unknown"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the map had been drawn to lead them away, not toward"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the victory had been bargained for before they were born"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the prophecy had been written as a trap, not a promise"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the silence at the end was an answer no one wanted"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the treasure was a memory stolen from someone else"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the storm had been called by a name they had spoken aloud"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the crown fit because it had always been meant for them"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the door they opened was never meant to close again"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ghost was not haunting them—it was guiding them"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the wound they carried was the key to the final lock"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the traitor acted from love, however twisted"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ritual succeeded, but not in the way anyone intended"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the city they saved had already chosen a different fate"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the song they heard was their own voice, years ahead"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the beast was guarding something worse behind it"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the bargain was renewed the moment they broke it"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the mirror showed a stranger who recognized them"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the final clue had been written in their own handwriting"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the peace they won would demand a new war tomorrow"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the bell tower had been ringing for someone else's funeral"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the river reversed course when the oath left their lips"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the portrait aged while the sitter stayed young"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the prison door had been left open as an invitation, not mercy"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the comet was a message written in a language of removals"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the treaty ink could only be read by moonlight"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the garden grew only from promises that had been kept"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the lighthouse beam pointed inland, not to sea"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the coin they carried had been spent twice already"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the storm shelter had been built around an old altar"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the trial transcript rewrote itself each night"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the banner revealed a second emblem when it got wet"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the sword remembered hands that were not theirs"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the orphan's locket contained sand from a battlefield unbuilt"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the mountain pass closed behind them like a satisfied jaw"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the bakery fire had been kind to no one but the story"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the cathedral vaults hummed with a chord only traitors heard"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the refugee ship sailed on water poured from a inkwell"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the council seal cracked along a fault line of truth"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the horizon line stitched itself tighter when they looked away"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ring warmed when lies approached within ten paces"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the watchtower stairs counted down instead of up"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the desert well offered wishes on credit"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the grave marker bore a date that had not happened yet"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the circus tent folded inward until it became a room"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the astrolabe tracked hearts instead of heavens"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the bridge toll was paid in names, not coin"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the harbor chain lifted only for apologies well-phrased"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the abbey bell rang only when someone chose mercy coldly"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the palace maze rearranged along lines of old grudges"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the theater audience had been cast before anyone auditioned"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ransom note used handwriting taught in their childhood"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the eclipse arrived early, impatient with schedules"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the market scale weighed intentions heavier than goods"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the river ferryman's pockets were full of stitches"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the throne's cushion hid blades meant for the humble"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the prophecy's margins contained instructions in shorthand"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the dragon's hoard was mostly letters never sent"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the revolution's anthem borrowed a lullaby's bones"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the surgeon's kit rattled with instruments for editing fate"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the lighthouse keeper kept time by counting heartbeats"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the city wall had been mortared with powdered oaths"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the astronomer's chart marked futures like wormholes"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the trial witness spoke in echoes routed through old wells"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the festival mask adhered until the wearer forgot the seam"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the soldier's medal warmed whenever someone lied about peace"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the orchard gate opened only after a debt was named"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ship's hold carried barrels labeled with living verbs"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the canyon echoed negotiations it had overheard for centuries"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the mine shafts breathed out drafts of unfinished apologies"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the palace cooks seasoned soup with rumors and thyme"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the cathedral floor stones shifted to keep pilgrims honest"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the river island moved downstream when no one watched"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the observatory dome peeled back to reveal a second sky"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the battle standard changed colors when guilt approached"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the prison chaplain kept keys that opened inward, not out"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the mountain hermit's tea leaves spelled out a rebate on fate"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ghost ship's rudder followed regrets, not currents"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the duel's adjudicator had already written the footnotes"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the coronation crown had been resized by a grieving smith"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the marketplace auction sold silences by the hour"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the harbor pilot steered by a chart inked in blood-bright dyes"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the university seal unlocked doors that led to weather, not rooms"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the war drum's skin had been stretched with borrowed patience"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the river delta braided itself into a signature"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the grave digger's compass pointed toward living rooms"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the exile's passport bore stamps from countries of thought"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the clock tower struck thirteen only when promises split"
+      ],
+      "weight": 1
+    }
+  ],
+  "Conflict": [
+    {
+      "expansion": [
+        "a trusted ally betrayed them"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "time was running out as the ritual began"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they had to choose between duty and love"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "an impossible decision loomed – sacrifice one or lose all"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "an old enemy returned with a vengeance"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the magic they unleashed backfired horribly"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the very land turned against them"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a hidden weakness was finally exposed"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the prophecy was misinterpreted from the start"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a dark secret threatened to destroy their reputation"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they were framed for a crime they didn't commit"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "an ancient beast was accidentally awakened"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their powers began to fade when they needed them most"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a plague began to sweep through the city"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they lost their memory and didn't know who to trust"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a rival group claimed the same legendary treasure"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the king declared them outlaws for no reason"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bridge collapsed, leaving them stranded"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they were forced to fight their own shadow"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the world began to crumble into pieces"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a loved one was taken hostage by the enemy"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they discovered a mole within their ranks"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the artifact they were carrying began to corrupt them"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a storm of unprecedented scale hit the region"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they were trapped in a time loop that kept resetting"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a war broke out between two neighboring kingdoms"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the gods decided to intervene in mortal affairs"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they were cursed with a slow-acting poison"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the resources they needed were stolen overnight"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a moral dilemma tore the group apart"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "their weapon shattered in the middle of a duel"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ground opened up to swallow the entire army"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they found out the 'hero' was actually the villain"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the tide of evidence turned without warning"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their signature became a weapon someone else wielded"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a vow spoken aloud refused to stay metaphorical"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the ground remembered crimes the courts forgot"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a treaty candle burned backward through clauses"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their reflection began arriving late to mirrors"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "an heirloom map revealed doors in people, not walls"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the city bell rang a frequency only traitors heard"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a plague of truthfulness made politics impossible"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their shadow filed for independent citizenship"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a river reversed and demanded tolls upstream"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the stars aligned into an insult nobody could unsee"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a choir began singing verdicts instead of hymns"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "every bridge they crossed billed them in years"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their blood type changed to match a stranger's claim"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a courtroom statue stepped down to testify"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the harvest failed because the soil wanted an apology first"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their dreams started cc'ing the enemy by accident"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a comet wrote their name and then struck through it"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "every lock in the city learned their key by heart"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a peace festival ended with two competing wars"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "their voice echoed before they spoke, accusing early"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the archives caught fire with selective politeness"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bargain signed in wine revealed teeth in the morning"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the crown melted only on honest brows"
+      ],
+      "weight": 1
+    }
+  ],
+  "Resolution": [
+    [
+      "In the end,",
+      "ResolutionOutcome",
       "Epilogue"
     ]
+  ],
+  "ResolutionOutcome": [
+    {
+      "expansion": [
+        "victory was achieved, but at a great cost"
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        "the truth was revealed, changing everything"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "peace was restored to the land"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the hero fell but saved the world from doom"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the curse was lifted, freeing the spirits"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the treasure was lost forever, but wisdom gained"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a new beginning started, full of hope"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the cycle of violence was finally broken"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they escaped the collapsing world just in time"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the two kingdoms signed a historic treaty"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a forgiveness was granted that no one expected"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "justice was served in a court of law"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the magic was sealed away forever"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a new ruler was crowned, wise and just"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they realized the true power was within them all along"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the villain was redeemed through an act of kindness"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the world was reborn from its own ashes"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they returned home to find everything had changed"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a secret alliance was formed to protect the peace"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the artifact was destroyed, ending the corruption"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they found a way to bridge the gap between worlds"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the missing pieces of the puzzle finally clicked into place"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a long-standing grudge was finally put to rest"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the prophecy was fulfilled in an unexpected way"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they chose a life of solitude, away from the chaos"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the hidden path was revealed to those who were worthy"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a collective effort saved the city from ruin"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they earned the respect of their fiercest enemies"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the burden was shared, making it easier to carry"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a new discovery opened up endless possibilities"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "they learned that some things are better left forgotten"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the memory of the fallen served as a guiding light"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "a simple choice led to a profound transformation"
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        "the debt was paid in work that outlasted shame"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the city learned to govern without needing monsters"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they accepted exile if it meant the truth stayed fed"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the villain's name became a synonym for caution, not glory"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "peace arrived as routine, boring and therefore real"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the artifact was buried where ambition rusts fastest"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they traded fame for a harbor that remembered them kindly"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the war ended when both sides ran out of stories"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a garden grew from ashes without needing metaphor"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they chose repair over victory and won anyway"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the prophecy retired and took up beekeeping"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the curse became a teacher nobody thanked aloud"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they returned keys they never should have held"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the throne stood empty and the maps looked healthier"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a bridge opened that charged only in patience"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the truth was smaller than fear but heavier to carry"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they forgave slowly, the way metal forgives rust"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the storm passed because someone admitted fault first"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "a library opened where weapons were catalogued as warnings"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they paid villains in the coin of irrelevance"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the alliance held because jokes were finally shared"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the hero's statue blinked once, approvingly"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the land healed where footsteps slowed to listen"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "they traded crowns for cloaks and kept both blood cold"
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        "the song ended and instruments stayed wisely silent"
+      ],
+      "weight": 1
+    }
+  ],
+  "Epilogue": [
+    {
+      "expansion": [
+        " From that day on, the land remembered their courage."
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        " And so, the story passed into legend."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The survivors built a monument to honor the fallen."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " And the hero's name was whispered with awe."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " Their deeds were carved into the stones of the capital."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The world was different now, but it was better."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " A single flower grew where the final battle took place."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They lived out their remaining days in quiet reflection."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The children of the future would tell their tale with wonder."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " A new constellation appeared in the night sky in their honor."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The lessons they learned were taught for generations."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The darkness never returned to those shores again."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " Their name became a symbol of hope for the oppressed."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The echoes of their laughter could still be heard in the wind."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " They vanished into the mist, leaving only a legacy behind."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The scars of the past slowly began to heal."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " A grand library was founded to preserve their wisdom."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The era of peace they brought lasted for a thousand years."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " They were gone, but their spirit lived on in every heart."
+      ],
+      "weight": 3
+    },
+    {
+      "expansion": [
+        " The sun rose on a world that finally knew true freedom."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " The story ended, but the journey was just beginning."
+      ],
+      "weight": 2
+    },
+    {
+      "expansion": [
+        " Carpenters measured peace in boards that did not splinter."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " River traders waved, no longer checking for pirates first."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The market learned a new joke and let it circulate free."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Schoolrooms quoted their cautionary kindness for decades."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The harbor gulls grew fat on honest crumbs."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Maps were redrawn with fewer teeth on the borders."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The tavern fireplace stopped crackling like a verdict."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Festival lights stayed lit an extra hour for strangers."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " A well was dug where old lies had been buried shallow."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The bell tower learned to ring without trembling."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Dogs slept in doorways without flinching at boots."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Nurses told the story to calm fevers, not egos."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Farmers planted borders with flowers instead of spikes."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " The courthouse steps gentled under slower feet."
+      ],
+      "weight": 1
+    },
+    {
+      "expansion": [
+        " Lovers danced where duels had scheduled themselves."
+      ],
+      "weight": 1
+    }
   ]
 }

@@ -1,0 +1,866 @@
+[
+  {
+    "expansion": [
+      "a wise wizard named Eldrin"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a brave knight named Seraphina"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a cunning thief called Kaelen"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a vengeful ghost known as the Mourner"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a mysterious stranger with silver eyes"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a gentle giant named Thorne"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a shadowy assassin from the Crimson Guild"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a brilliant alchemist seeking the elixir of life"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a disgraced noble looking for redemption"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a wild druid who speaks to the trees"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a fierce pirate captain from the Azure Sea"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a blind monk with heightened senses"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a clockwork automaton with a soul"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a fallen angel seeking to return to grace"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a rogue scholar who discovered forbidden secrets"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a nomadic hunter from the frozen wastes"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a charismatic bard with a silver tongue"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a haunted soldier from a forgotten war"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a young orphan with untapped magical potential"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a dragon-slayer who lost their purpose"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a visionary inventor of steam-powered marvels"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a silent executioner haunted by their past"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a spirited rebel fighting against tyranny"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a grumpy dwarf smith with a heart of gold"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a graceful elf ranger from the Whispering Woods"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a mad scientist obsessed with lightning"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a stoic paladin bound by a sacred oath"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a mischievous sprite from the Feywild"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a weary traveler from a land that no longer exists"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a fearless gladiator who won their freedom"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a secretive spymaster with a web of informants"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a cursed werewolf seeking a cure"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a legendary hero who came out of retirement"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a determined medic on the front lines"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a cynical mercenary who only works for gold"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a lonely lighthouse keeper on a jagged coast"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a dreamer who can walk through others' nightmares"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a banished prince trying to reclaim his throne"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a gifted healer who cannot heal themselves"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a wandering samurai seeking a worthy opponent"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a necromancer who only wants to say goodbye"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a star-crossed lover from a rival house"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a brave scout who knows every hidden path"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a reclusive hermit with infinite wisdom"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a daring aviator in a world of floating islands"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a stone-faced guard who never breaks formation"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a prophet who saw the end of the world"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a treasure hunter who found more than they bargained for"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a simple farmer caught in the middle of a war"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a master of disguise who forgot their true face"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a weary librarian in a library of infinite books"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a young squire dreaming of glory"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a powerful sorceress with a dark secret"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a cartographer who charted regions that shift overnight"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a beekeeper whose hives distill rumors into honey"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a rope dancer who negotiates treaties midair"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a forensic chef who reads crimes in kitchen dust"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a sigil lawyer who argues contracts with spirits"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a tide accountant who balances harbors like ledgers"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a lantern mender who repairs broken moons"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a storm chaperone who escorts disasters politely out"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a bookbinder who sews vanished chapters back into spines"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a meteor shepherd who herds shooting stars away from cities"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a rust prophet who translates corrosion into timelines"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a violin duelist who wins fights in quarter notes"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a cloud tailor who stitches thunder into linings"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a memory notary who stamps recollections as legal tender"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a moss diplomat who speaks slowly and wins slowly"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a glassblower who traps echoes inside paperweights"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a dust knight who fights allergies like dragons"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a starlit paramedic who bandages constellations"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a rumor cartographer who maps whispers street by street"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a rain broker who sells showers on installment"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a ink river guide who ferries letters upstream"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a bone architect who remodels skeletons for endurance"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a shadow veterinarian who treats silhouettes for lameness"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a oath mechanic who tunes promises until they hum true"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a midnight baker whose bread reveals tomorrow's weather"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a fossil clown who makes extinct audiences laugh anyway"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a wind notary who notarizes gusts"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a grief engineer who builds bridges from tears"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a spice inquisitor who interrogates pepper until it confesses"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a horizon launderer who bleaches sunsets back to innocence"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a flute assassin whose notes cut purse strings only"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a marble tutor who teaches statues to blink once"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a thunder therapist who listens to storms without interrupting"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a parchment lifeguard who pulls swimmers from archives"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a velvet blacksmith who hammers softness into armor"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a compass therapist who reorients lost guilt"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a snow attorney who defends flakes against accusations"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a moth librarian who catalogs holes in knowledge"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a vinegar sage who pickles prophecies for winter"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a hourglass banker who loans minutes at cruel interest"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a quilt general who mobilizes patches into formation"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a root whisperer who translates vegetables' grievances"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a soap historian who washes sins out of chronicles"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a chandelier medic who resets lights' heartbeats"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a gravel poet who writes epics in crunch patterns"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a chalk sentinel who redraws borders when bullies nap"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a fog banker who invests in visibility futures"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a feather blacksmith who forges quills that debate back"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "a wandering judge who weighs hearts with honest thumbs"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a tea oracle who reads leaves like litigation"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a sand pilot who navigates dunes by taste"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a choir spy who steals secrets in harmony"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a bridge therapist who counsels planks through anxiety"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a candle scientist who measures darkness in wax grams"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a map eater who digests borders to calm nations"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a ribbon general who ties armies into bows"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a hail negotiator who bargains with sky for crops"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a root doctor who prescribes soil walks"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a mirror coach who trains reflections to flinch less"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a flour witch who kneads futures into dough"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a gravel ambassador who speaks only in crunch dialects"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a ink detective who follows stains like breadcrumbs"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a cloud notary who stamps cumulus with approvals"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a bone librarian who shelves marrow like manuscripts"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a storm accountant who audits lightning losses"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a velvet geologist who studies softness under pressure"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a moth diplomat who trades wingdust for truces"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a vinegar knight who seasons courage sour and strong"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a snow historian who preserves avalanches in jars"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a ribbon engineer who suspends bridges from silk"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a hourglass medic who performs triage on wasted time"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a frost lawyer who defends icicles in spring court"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a thunder cartographer who maps sound before light"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a chalk witch who hexes arrogance into equations"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a root assassin who ends tyrants via tripped thresholds"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a soap paladin who washes corruption without drama"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a chandelier thief who steals only ugly light"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a gravel monk who prays in percussive rosaries"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a fog notary who witnesses disappearances legally"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a feather scholar who indexes plumes like evidence"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a bone sailor who navigates reefs by listening to calcium"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a spice paladin who defends bland towns from mediocrity"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a horizon thief who steals sunsets for the colorblind"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a flute cartographer who maps valleys by echo returns"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a marble witch who animates statues only during eclipses"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a thunder baker who kneads storms into sourdough"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a parchment pilot who sails contracts through bureaucratic fog"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a velvet assassin who silences arrogance with a shush"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a compass witch who spins needles until truth dizzy falls out"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a snow broker who sells silence by the drift"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "a moth paramedic who rescues flames from light addiction"
+    ],
+    "weight": 1
+  }
+]

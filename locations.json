@@ -1,0 +1,350 @@
+[
+  {
+    "expansion": [
+      "in the dark forest of Thornwood,"
+    ],
+    "weight": 3
+  },
+  {
+    "expansion": [
+      "in the haunted castle of Ravencrest,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "on the distant planet of Xerion,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "beneath the shimmering waterfall of Illura,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "inside the clockwork tower of Mechanis,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the sunken city of Atlantia,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "across the endless desert of sighs,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "within the neon-lit alleys of Neo-Tokyo,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "atop the peak of the Frozen Fang,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "deep inside the crystalline caves of Kael,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the edge of the world where stars fall,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the bustling market of Golden Sands,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "amidst the ruins of the ancient library,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "inside a giant, hollowed-out tree,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "on a floating island drifting in the clouds,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "within the belly of a leviathan,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the silent halls of the Mirror Palace,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the crossroads of the Seven Realms,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "in the shadow of the colossal volcano,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "within a dream that refused to end,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the secret garden of the Moon Queen,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "on the deck of a ghost ship sailing the mist,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "under the roots of the World Tree,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "in the heart of the Emerald Labyrinth,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "within the high-tech labs of Cyber-Dyne,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the quaint village of Willowbrook,"
+    ],
+    "weight": 3
+  },
+  {
+    "expansion": [
+      "at the bottom of a deep, forgotten well,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "inside the emperor's forbidden garden,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "on the wind-swept plains of the North,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "in the shimmering halls of the Elven court,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "amidst the wreckage of a crashed starship,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in the bustling port of Azure Bay,"
+    ],
+    "weight": 2
+  },
+  {
+    "expansion": [
+      "at the threshold of the Spirit Realm,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "along the ridgeline where lightning rehearses speeches,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "inside a bankrupt observatory full of honest stars,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "near the pier where knots learn to untie themselves,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "between two kingdoms scheduled for mutual forgetting,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the mouth of a canyon that hums in thirds,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in a salt flat where mirrors argue with the sun,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "within a greenhouse of carnivorous orchids,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "on a tram line suspended over a city of smoke,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "beside a river dyed indigo for treaty-signing week,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "under a tree whose roots transcribe confessions,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in a ward where sleep is rationed by polite clerks,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the lip of a crater filled with polite rain,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "inside a vault built to store unfinished songs,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "on a glacier that grants wishes only in celsius,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "near a bridge toll paid in memories, not coin,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in a district zoned for duels at dawn and diplomacy at lunch,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "within a market where every stall sells alibis,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the edge of a map where cartographers wept,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "inside a bathhouse heated by dragon payroll,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "on a cliff where winds draft legal complaints,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "in a fen where fireflies spell out warnings,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "within a scriptorium that corrects authors overnight,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "at the center of a maze replanted each season,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "near a lighthouse built inverted into the seabed,"
+    ],
+    "weight": 1
+  },
+  {
+    "expansion": [
+      "inside a granary that measures harvests in whispers,"
+    ],
+    "weight": 1
+  }
+]

@@ -1,12 +1,14 @@
 from engine import PlotEngine
 
-def generate_with_constraints(engine, constraints, filter_func=None, max_attempts=100):
-    """
-    Generate a story that satisfies all given constraints.
-    constraints: list of functions that take a story (list of words) and return True/False.
-    """
-    for _ in range(max_attempts):
-        story = engine.generate_story(filter_func=filter_func)
-        if all(constraint(story) for constraint in constraints):
-            return story
-    raise RuntimeError("Could not generate story satisfying constraints after {} attempts".format(max_attempts))
+def generate_story_with_keyword(engine, keyword, filter_func, initial_state, max_attempts=200):
+    print(f"Searching for stories containing '{keyword}'...")
+    for attempt in range(1, max_attempts+1):
+        initial_state.state = 0
+        story_words = engine.generate_story(filter_func=filter_func, initial_state=initial_state)
+        story_text = " ".join(story_words)
+        if keyword.lower() in story_text.lower():
+            print(f"Found after {attempt} attempts.")
+            return story_words
+        if attempt % 20 == 0:
+            print(f"Attempt {attempt}... still looking for '{keyword}'")
+    raise RuntimeError(f"Could not generate story with keyword '{keyword}' after {max_attempts} attempts")

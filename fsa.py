@@ -5,38 +5,70 @@ RISING_ACTION = 1
 CLIMAX = 2
 RESOLUTION = 3
 
+
 class PlotStateMachine:
     def __init__(self):
         self.state = SETUP
 
     def _allowed_nonterminals(self):
         if self.state == SETUP:
-            return {"Opening", "Introduction", "Character", "Location"}
+            return {
+                "Opening",
+                "Introduction",
+                "Character",
+                "Location",
+                "Backstory",
+                "DescriptionSentence",
+            }
         elif self.state == RISING_ACTION:
-            return {"Body", "Paragraph", "Scene", "Event", "Events", "Conflict", "Dialogue", "Emotions", "Subplot", "Subplots"}
+            return {
+                "Development",
+                "Scene",
+                "EventSequence",
+                "Event",
+                "ActionPhrase",
+                "Atmosphere",
+                "Thought",
+                "TransitionToNextScene",
+                "Dialogue",
+                "Emotion",
+                "OptAtmosphere",
+                "OptThought",
+                "OptSceneDialogue",
+                "OptTransition",
+                "OptEventDialogue",
+                "OptEventEmotion",
+            }
         elif self.state == CLIMAX:
-            return {"Scene", "Event", "Events", "Conflict", "Dialogue", "Emotions", "Subplot", "Subplots", "Resolution", "Ending"}
+            return {
+                "Climax",
+                "Conflict",
+                "OptClimaxTwist",
+                "Twist",
+                "TwistPhrase",
+            }
         elif self.state == RESOLUTION:
-            return {"Ending", "Resolution", "Epilogue"}
+            return {
+                "Resolution",
+                "ResolutionOutcome",
+                "Epilogue",
+            }
         return set()
 
     def allowed_expansions(self, nonterminal, expansions):
-        # Always allow the start symbol
         if nonterminal == "Story":
             return expansions
 
-        # If this nonterminal is allowed in the current state, keep all its expansions
+        if nonterminal == "Development" and self.state == SETUP:
+            self.state = RISING_ACTION
+        if nonterminal == "Climax" and self.state == RISING_ACTION:
+            self.state = CLIMAX
+        if nonterminal == "Resolution" and self.state == CLIMAX:
+            self.state = RESOLUTION
+
         if nonterminal in self._allowed_nonterminals():
             return expansions
-        else:
-            # Otherwise block by returning an empty list
-            return []
+        return []
 
     def transition(self, nonterminal, chosen_expansion):
-        if nonterminal == "Location":
-            self.state = RISING_ACTION
-        elif nonterminal == "Event":
-            self.state = CLIMAX
-        elif nonterminal == "Resolution":
-            self.state = RESOLUTION
         return self.state

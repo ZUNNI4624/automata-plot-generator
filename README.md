@@ -1,139 +1,92 @@
 # Automata-Based Plot Generator
 
-A story generator using formal grammars, pushdown automaton (PDA), and finite state automaton (FSA) to produce plots with mathematically uniform distribution (for flat grammars) and weighted probabilities for richer narratives.
+A story generator using **formal grammars**, **pushdown automaton (PDA)** and **finite state automaton (FSA)** to produce long, varied stories with mathematical transparency and user‑selected constraints.
 
-## Project Overview
+## Features
 
-This system generates stories by expanding a **context-free grammar** with a **pushdown automaton**. A **finite state automaton** enforces plot phases (Setup → Rising Action → Climax → Resolution) by filtering which non‑terminals can be expanded at each stage. The grammar is defined in `grammar.json` and supports weighted expansions (some elements are more likely than others).
+- **Pushdown Automaton** – expands a context‑free grammar with weighted productions, recursion, and depth limit.
+- **Finite State Automaton** – enforces plot phases (Setup → Rising Action → Climax → Resolution) by filtering allowed non‑terminals per phase.
+- **Rich grammar** – hundreds of unique events, characters, locations, conflicts, resolutions, dialogues, emotions, thoughts, atmospheres, transitions, and twists.
+- **User‑friendly CLI** – step‑by‑step selection of character, location, conflict, and resolution; stories saved to file.
+- **No repetition** – uses a `StoryUsedTracker` to prevent duplicate action phrases, dialogue, emotions, etc., within a story.
+- **Long stories** – generates 2–3 pages of prose (50–100+ sentences) with multiple scenes and events.
+- **Uniformity test** – empirical proof of equal probability for a flat grammar.
 
-The project was developed by two people:
-- **Person A** – Engine (PDA, FSA, grammar) and core logic.
-- **Person B** – User interface, formatting, and final presentation.
-
-This repository contains the complete engine. Person B will now add the CLI and output formatting.
-
-## File Structure
+## Project Structure
 .
-├── engine.py # PDA – expands grammar, supports weights & filter
-├── fsa.py # FSA – plot phases & rule filtering
-├── grammar.json # Rich context‑free grammar (characters, events, etc.)
-├── test_engine.py # Simple test – prints a story from grammar
-├── test_fsa_integrated.py # Test with FSA filter – prints story & final phase
-├── cli_utils.py # Helper for generating stories with constraints
-├── visualise_fsa.py # Optional – draws FSA diagram (requires Graphviz)
-├── flat_grammar.json # Flat grammar used for uniformity test
-├── test_uniformity.py # Empirical uniformity test (27 possible plots)
+├── engine.py # PDA with state tracking and repetition prevention
+├── fsa.py # FSA plot phase automaton
+├── story_cli.py # Main CLI interface
+├── grammar.json # Generated grammar (built dynamically)
+├── event_rules.json # Events with preconditions/effects (optional)
+├── characters.json # Character descriptions
+├── locations.json # Location descriptions
+├── conflicts.json # Conflict phrases
+├── resolutions.json # Resolution outcomes
+├── epilogues.json # Epilogue lines
+├── names.json # Character names
+├── dialogues.json # Dialogue snippets
+├── emotions.json # Emotional phrases
+├── atmosphere.json # Atmospheric descriptions
+├── thoughts.json # Internal thoughts
+├── transitions.json # Scene transition phrases
+├── twists.json # Twist phrases
+├── descriptions.json # Backstory sentences
+├── actions.json # Generic action phrases (fallback)
+├── test_uniformity.py # Uniformity test (flat grammar)
+├── visualise_fsa.py # FSA diagram generator
 └── README.md # This file
 
-## How to Run
 
-1. Ensure you have Python 3.7+.
-2. Clone the repository:
+## Requirements
+
+- Python 3.7+ (no external libraries required; uses only `json`, `random`, `re`).
+
+## Setup
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/ZUNNI4624/automata-plot-generator.git
    cd automata-plot-generator
-Run a test story:
-
+2. (Optional) Create a virtual environment:
 bash
-python test_engine.py
-This will print a raw story (list of words joined by spaces).
+python -m venv venv
+source venv/bin/activate      # Linux/Mac
+venv\Scripts\activate         # Windows
 
-Run with FSA filter:
+3. No additional packages needed.
 
-bash
-python test_fsa_integrated.py
-This will also print the final plot phase (0–3). The story should follow a logical arc.
+## Usage
+Run the CLI:
+    bash
+    python story_cli.py
+    Follow the prompts:
 
-## What Person B Needs to Do
-1. Build a Command‑Line Interface (CLI)
-Create a script (e.g., story_cli.py) that:
+1. Choose a character (from a numbered list).
+2. Choose a location.
+3. Choose a conflict.
+4. Choose a resolution.
+5. Enter how many stories to generate.
+6. Optionally save the stories to a text file.
 
-Asks the user how many stories to generate.
+## How It Works
+1. Grammar – The story is defined by a context‑free grammar:
 
-Optionally accepts constraints (e.g., must contain “Victory”, must include a wizard).
+Story → Opening Development Climax Resolution
+Opening → Introduction Character Location Backstory
+Development → Scene Scene ... (5–8 scenes)
+Scene → Atmosphere? EventSequence Thought? Dialogue? Transition?
+EventSequence → 8–12 events (each with action, optional dialogue, optional emotion)
+Climax → "Then, suddenly, " Conflict ". " OptionalTwist
+Resolution → "In the end, " ResolutionOutcome Epilogue
 
-Calls the engine with the FSA filter (or without, for raw generation).
+2. Pushdown Automaton – Expands the grammar using a stack, supporting recursion (e.g., subplots) and weighted choices. A StoryUsedTracker prevents repetition of the same phrase within a story.
 
-Prints the stories in a readable format.
+3. Finite State Automaton – The PlotStateMachine tracks the plot phase (0–3) and filters which non‑terminals are allowed in each phase. This ensures logical story progression.
 
-Example starter:
+4. State Tracking – The engine also maintains a StoryState (inventory, goal, emotion) to support event preconditions/effects (optional, used in event_rules.json).
 
-python
-from engine import PlotEngine
-from fsa import PlotStateMachine
+5. User Selection – The CLI extracts displayable phrases from the JSON files and presents numbered menus. It then calls the engine with the chosen constraints (substring matching) and the FSA filter.
 
-engine = PlotEngine("grammar.json")
-fsm = PlotStateMachine()
+6. Output Formatting – Raw word lists are converted into paragraphs with proper punctuation, capitalization, and line breaks.
 
-def filter_func(nonterm, expansions, state):
-    return state.allowed_expansions(nonterm, expansions), state
-
-def main():
-    n = int(input("How many stories? "))
-    for i in range(n):
-        fsm.state = 0   # reset
-        story_words = engine.generate_story(filter_func=filter_func, initial_state=fsm)
-        story = " ".join(story_words)
-        print(f"\n--- Story {i+1} ---\n{story}\n")
-        print(f"Plot phase: {fsm.state}")
-
-if __name__ == "__main__":
-    main()
-
-
-2. Format Output into Proper Stories
-The raw story is a list of strings (some long phrases, some short). Your job is to convert it into a nicely formatted text:
-
-Capitalise the first letter of each sentence.
-
-Add periods at the end of sentences.
-
-Insert line breaks for paragraphs (e.g., after the introduction, after a dialogue snippet, after an event block).
-
-You may use the cli_utils.py helper or write your own formatting function.
-
-Example formatting idea:
-
-python
-def format_story(words):
-    # Join with spaces
-    text = " ".join(words)
-    # Simple split on ". " to detect sentences (but your grammar may not include periods)
-    # You'll need to add periods where missing and capitalise.
-    # You can also split into paragraphs by looking for key phrases like "Once upon a time,".
-    return formatted_text
-
-
-3. Add User Constraints (Optional)
-Use cli_utils.generate_with_constraints (already present) to allow users to specify requirements:
-
-Must contain a certain word (e.g., "wizard")
-
-Must have a happy ending (e.g., "Victory")
-
-Must be a certain genre (load different grammar files)
-
-
-4. Visualisation (Optional)
-The visualise_fsa.py script uses Graphviz to draw the automaton diagram. To use it, install Graphviz and the Python graphviz package. If you don't want to install, you can still include the diagram manually in your presentation.
-
-
-5. Prepare the Final Presentation
-Explain the theory: CFG, PDA, FSA, uniform probability.
-
-Show architecture (engine, grammar, FSA).
-
-Demonstrate with sample stories.
-
-Highlight the uniformity test results.
-
-Show the automaton diagram.
-
-Notes
-The grammar is already rich and can be extended by adding more entries to the arrays in grammar.json.
-
-The FSA state transitions are defined in fsa.py (allowed non‑terminals per phase and transitions).
-
-The engine uses a depth limit (100) to prevent infinite recursion – you can adjust it if needed.
-
-All code is in Python 3.11+ and uses only standard libraries (json, random).

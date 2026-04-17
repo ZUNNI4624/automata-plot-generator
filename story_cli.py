@@ -1,8 +1,14 @@
+import sys
 import json
 import re
 import random
 from engine import PlotEngine, StoryUsedTracker
 from fsa import PlotStateMachine
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stdin, 'reconfigure'):
+    sys.stdin.reconfigure(encoding='utf-8')
 
 # ------------------------------------------------------------
 # Load external JSON files

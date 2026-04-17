@@ -1,5 +1,43 @@
+# Python
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
 venv/
+env/
+ENV/
+
+# Generated grammar (optional – can be regenerated)
+grammar.json
+
+# Sample output files
+stories.txt
+plot_automaton
+plot_automaton.pdf
+
+# Zencoder / tool chat history
+.zencoder/
+
+# Node.js (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
 .DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
